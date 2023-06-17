@@ -2,7 +2,7 @@ package org.delicatesolutions;
 
 /**
  * Write a method named getExponent(n, p) that returns the largest exponent x such that px evenly divides n. If p is <= 1 the method should return -1.
- * For example, ç returns 4 because 162 = 21 * 34, therefore the value of x here is 4.
+ * For example, ç returns 4 because 162 = 2^1 * 3^4, therefore the value of x here is 4.
  * The method signature is
  * int getExponent(int n, int p)
  * Examples:
@@ -38,5 +38,6 @@ public class Exponent {
         System.out.println(getExponent(-250, 5)); // Output: 3
         System.out.println(getExponent(18, 1)); // Output: -1
         System.out.println(getExponent(128, 4)); // Output: 3
+        System.out.println(getExponent(162, 3));// Output: 4
     }
 }
