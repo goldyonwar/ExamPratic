@@ -3,7 +3,8 @@ package org.delicatesolutions;
 
 /**
  * An array is zero-plentiful if it contains at least one 0 and every sequence of 0s is of length at least 4.
- * Write a method named isZeroPlentiful which returns the number of zero sequences if its array argument is zero-plentiful, otherwise it returns 0.
+ * Write a method named isZeroPlentiful which returns the number of zero sequences if its array argument is zero-plentiful,
+ * otherwise it returns 0.
  * If you are programming in Java or C#, the function signature is int isZeroPlentiful(int[ ] a)
  * If you are programming in C or C++, the function signature is
  * int isZeroPlentiful(int a[ ], int len) where len is the number of elements in the array a.

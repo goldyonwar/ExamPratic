@@ -1,7 +1,5 @@
 package org.delicatesolutions;
 
-import java.util.List;
-
 /**
  * A number n is called prime happy if there is at least one prime less than n and the sum of all primes less than n is
  * evenly divisible by n.
