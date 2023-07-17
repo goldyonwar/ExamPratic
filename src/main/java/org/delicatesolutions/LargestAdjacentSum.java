@@ -8,10 +8,10 @@ package org.delicatesolutions;
  * int largestAdjacentSum(int a[ ], int len) where len is the number of elements in a
  * Examples:
  * if a is             return      because
- * {1, 2, 3, 4}        7 because 3+4 is larger than either 1+2 or 2+3 6 because 18-12 is larger than -12+9 or 9-10
- * {1, 2, 3, 4}
- * {18, -12, 9, -10}
- * {1,1,1,1,1,1,1,1,1} 2 because all adjacent pairs sum to 2 {1,1,1,1,1,2,1,1,1} 3 because 1+2 or 2+1 is the max sum of adjacent pairs
+ * {1, 2, 3, 4}        7 because 3+4 is larger than either 1+2 or 2+3
+ * {18, -12, 9, -10}   6 because 18-12 is larger than -12+9 or 9-10
+ * {1,1,1,1,1,1,1,1,1} 2 because all adjacent pairs sum to 2
+ * {1,1,1,1,1,2,1,1,1} 3 because 1+2 or 2+1 is the max sum of adjacent pairs
  */
 public class LargestAdjacentSum {
 
