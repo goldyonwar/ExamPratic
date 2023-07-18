@@ -21,9 +21,9 @@ public class IsMagicArray {
     public static int isMagicArray(int[] a) {
         int sumOfPrime = 0;
 
-        for (int i = 0; i < a.length; i++) {
-            if (isPrime(a[i])) {
-                sumOfPrime += a[i];
+        for (int j : a) {
+            if (isPrime(j)) {
+                sumOfPrime += j;
             }
         }
 

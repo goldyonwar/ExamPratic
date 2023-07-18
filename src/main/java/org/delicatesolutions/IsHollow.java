@@ -1,7 +1,10 @@
 package org.delicatesolutions;
 
 /*
-An array is said to be hollow if it contains 3 or more zeros in the middle that are preceded and followed by the same number of non-zero elements. Furthermore, all the zeroes in the array must be in the middle of the array. Write a function named isHollow that accepts an integer array and returns 1 if it is a hollow array, otherwise it returns 0.
+An array is said to be hollow if it contains 3 or more zeros in the middle that are preceded and followed by the same
+number of non-zero elements. Furthermore, all the zeroes in the array must be in the middle of the array.
+Write a function named isHollow that accepts an integer array and returns 1 if it is a hollow array,
+otherwise it returns 0.
 If you are programming in Java or C#, the function signature is int isHollow(int[ ] a)
 If you are programming in C or C++, the function signature is
 int isHollow(int a[ ], int len) where len is the number of elements in the array
