@@ -12,7 +12,6 @@ Write a function named isComplete that returns 1 if its array argument is a comp
 The function signature is int isComplete (int[ ] a)
  */
 
-// not complete yet!!!
 public class IsComplete3 {
     public static int isComplete(int[] a) {
 
@@ -24,15 +23,32 @@ public class IsComplete3 {
                 return 0;
             }
 
-            if (j % 2 == 0 && maxEven < j) {
+            if (j % 2 == 0) {
                 evens[evenIndex++] = j;
-                maxEven = j;
+                if (maxEven < j) {
+                    maxEven = j;
+                }
             }
         }
 
-        for (int i = 0; i < evenIndex; i++) {
-
+        boolean isFound;
+        for (int i = 2; i < maxEven; i += 2) {
+            isFound = false;
+            for (int j = 0; j < maxEven; j++) {
+                if (evens[j] == i) {
+                    isFound = true;
+                    break;
+                }
+            }
+            if (!isFound) {
+                return 0;
+            }
         }
-        
+        return 1;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(isComplete(new int[]{2, 3, 2, 4, 11, 6, 10, 9, 8}));
+        System.out.println(isComplete(new int[]{2, -3, 4, 3, 6}));
     }
 }
