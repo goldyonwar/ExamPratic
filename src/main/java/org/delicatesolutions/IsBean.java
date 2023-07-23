@@ -1,7 +1,8 @@
 package org.delicatesolutions;
 
 /*
-An array is defined to be a Bean array if it meets the following conditions a. If it contains a 9 then it also contains a 13.
+An array is defined to be a Bean array if it meets the following conditions a.
+If it contains a 9 then it also contains a 13.
 b. If it contains a 7 then it does not contain a 16.
 So{1,2,3,9,6,13} and{3,4,6,7,13,15},{1,2,3,4,10,11,12}and{3,6,9,5,7,13,6,17}are Bean arrays.
 The following arrays are not Bean arrays:
